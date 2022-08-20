@@ -1,0 +1,47 @@
+name: e_commerce_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  async: any
+
+  # navigator
+  auto_route: ^4.2.1
+
+  # state management
+  provider: ^6.0.3
+
+  # network
+  dio: ^4.0.6
+
+  # singleton
+  get_it: ^7.2.0
+
+  # localization
+  easy_localization: ^3.0.1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^4.2.1
+  build_runner: ^2.2.0
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/gif/
+    - assets/translations/

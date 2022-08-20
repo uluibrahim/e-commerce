@@ -1,0 +1,4 @@
+enum ActiveOrCompleted {
+  active,
+  completed,
+}
