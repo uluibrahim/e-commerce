@@ -11,13 +11,12 @@
 
 
 
-
-![Carts](screenshot/carts.png) 
-![Log Out](screenshot/logout.png)
 ![Home](screenshot/home.png)
-![Notification](screenshot/notification.png)
+![Carts](screenshot/carts.png) 
 ![Order Active](screenshot/order_active.png)
 ![Order Completed](screenshot/order_completed.png) 
 ![Profile](screenshot/profile.png)
 ![Remove Cart](screenshot/remove_cart.png)
 ![Search](screenshot/search.png)
+![Log Out](screenshot/logout.png)
+![Notification](screenshot/notification.png)
