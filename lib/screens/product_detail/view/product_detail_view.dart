@@ -9,7 +9,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../../core/constants/app/image/image_constants.dart';
+import '../../../core/constants/image/image_constants.dart';
 import '../../../models/product_model.dart';
 import '../../../product/component/custom_elevated_button.dart';
 import '../../../product/component/increment_and_deacrese_button.dart';

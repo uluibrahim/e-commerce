@@ -1,8 +1,7 @@
 abstract class LocaleKeys {
-  // static const home = "home";
-  // static const carts = "carts";
-  // static const orders = "orders";
-  // static const profile = "profile";
+  static const home = "home";
+  static const carts = "carts";
+  static const orders = "orders";
   static const myCart = "myCart";
   static const checkout = "checkout";
   static const search = "search";
@@ -36,4 +35,5 @@ abstract class LocaleKeys {
   static const yesRemove = "yesRemove";
   static const somethingWentWrong = "somethingWentWrong";
   static const totalPrice = "totalPrice";
+  static const changeLanguage = "changeLanguage";
 }

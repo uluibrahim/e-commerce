@@ -83,37 +83,6 @@ class _CartsBottomSheetState extends State<CartsBottomSheet> {
               context.router.pop();
             },
           ),
-          // Padding(
-          //   padding: context.paddingNormal,
-          //   child: Row(
-          //     children: [
-          //       Expanded(
-          //         flex: 25,
-          //         child: CustomElevatedButton(
-          //           color: const Color.fromARGB(255, 229, 226, 226),
-          //           context: context,
-          //           onTap: () {
-          //             context.router.pop();
-          //           },
-          //           widget: Text(LocaleKeys.cancel.tr(),
-          //               style: context.textTheme.button),
-          //         ),
-          //       ),
-          //       const Spacer(flex: 2),
-          //       Expanded(
-          //         flex: 25,
-          //         child: CustomElevatedButton(
-          //           context: context,
-          //           onTap: () {
-          //             viewmodel.deleteProduct(index);
-          //             context.router.pop();
-          //           },
-          //           widget: Text(LocaleKeys.yesRemove.tr()),
-          //         ),
-          //       ),
-          //     ],
-          //   ),
-          // ),
         ],
       ),
     );

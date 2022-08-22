@@ -5,5 +5,10 @@ class ApplicationConstants {
   static const langAssetPath = 'assets/translations';
   static const email = "iulu17@posta.pau.edu.tr";
   static const enLocale = Locale("en", "US");
-  static const supportedLocale = [ApplicationConstants.enLocale];
+  static const trLocale = Locale("tr", "TR");
+
+  static const supportedLocale = [
+    ApplicationConstants.enLocale,
+    ApplicationConstants.trLocale,
+  ];
 }

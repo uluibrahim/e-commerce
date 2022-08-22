@@ -31,5 +31,9 @@
     "removeFromCart": "Remove From Cart?",
     "yesRemove": "Yes Remove",
     "somethingWentWrong": "Something went wrong",
-    "totalPrice": "Total Price"
+    "totalPrice": "Total Price",
+    "changeLanguage": "Change Language",
+    "home": "Home",
+    "carts": "Carts",
+    "orders": "Orders"
 }

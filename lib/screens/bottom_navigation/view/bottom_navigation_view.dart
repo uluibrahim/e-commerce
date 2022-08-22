@@ -1,7 +1,8 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:e_commerce_app/core/init/language/locale_keys.dart';
 import 'package:e_commerce_app/product/auto_route/app_router.dart';
-import 'package:e_commerce_app/product/enums/pages_enum.dart';
 import 'package:e_commerce_app/product/enums/view_state.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -34,16 +35,16 @@ class BottomNavigationView extends StatelessWidget {
                 items: [
                   BottomNavigationBarItem(
                       icon: const Icon(Icons.home_outlined),
-                      label: PagesEnum.home.pageName),
+                      label: LocaleKeys.home.tr()),
                   BottomNavigationBarItem(
                       icon: const Icon(Icons.shopping_cart_outlined),
-                      label: PagesEnum.carts.pageName),
+                      label: LocaleKeys.carts.tr()),
                   BottomNavigationBarItem(
                       icon: const Icon(Icons.shopping_bag_outlined),
-                      label: PagesEnum.orders.pageName),
+                      label: LocaleKeys.orders.tr()),
                   BottomNavigationBarItem(
                       icon: const Icon(Icons.person_outline),
-                      label: PagesEnum.profile.pageName),
+                      label: LocaleKeys.profile.tr()),
                 ],
               ),
             );
