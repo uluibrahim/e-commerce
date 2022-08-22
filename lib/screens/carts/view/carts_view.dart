@@ -28,7 +28,6 @@ class _CartsViewState extends State<CartsView> {
       builder: (context, child) {
         final viewmodel = Provider.of<CartsViewmodel>(context);
         return Scaffold(
-          backgroundColor: const Color(0xfff3f3f3),
           appBar: SortIconAppbar(
             context: context,
             titleText: LocaleKeys.myCart.tr(),

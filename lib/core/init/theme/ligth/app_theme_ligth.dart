@@ -14,6 +14,7 @@ class AppThemeLight extends AppTheme with ILightTheme {
         appBarTheme: _appBarTheme,
         tabBarTheme: _tabbarTheme,
         bottomNavigationBarTheme: _bottomNavigationBarTheme,
+        scaffoldBackgroundColor: const Color(0xfff3f3f3),
       );
 
   TextTheme get _textTheme => ThemeData.light().textTheme.copyWith();
@@ -29,7 +30,8 @@ class AppThemeLight extends AppTheme with ILightTheme {
 
   TabBarTheme get _tabbarTheme => ThemeData.light().tabBarTheme.copyWith(
         labelColor: Colors.black,
-        labelStyle: _textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+        labelStyle:
+            _textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
         indicator: const UnderlineTabIndicator(
             borderSide: BorderSide(width: 2, color: Colors.black),
             insets: EdgeInsets.symmetric(horizontal: 10)),
